@@ -4,10 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gavin Mullin | Social Psychologist</title>
-  
+
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
   <link href="https://fonts.cdnfonts.com/css/neue-kabel" rel="stylesheet">
+
+  <!-- ICONIFY ICONS -->
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
   <style>
     body {
@@ -75,9 +78,24 @@
 
     .profile-img {
       display: block;
-      margin: 2rem auto;
+      margin: 2rem auto 1rem;
       max-width: 300px;
       height: auto;
+    }
+
+    .social-icons {
+      text-align: center;
+      margin: 1rem 0 2rem;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      color: #ffdd44;
+      text-decoration: none;
+    }
+
+    .social-icons a:hover {
+      color: #ff9933;
     }
   </style>
 </head>
@@ -97,6 +115,16 @@
   <div class="content">
     <h2>About Me</h2>
     <img src="assets/gavin.jpg" alt="Gavin Mullin" class="profile-img">
+
+    <div class="social-icons">
+      <a href="https://bsky.app/profile/gavinmullin.bsky.social" target="_blank" title="Bluesky">
+        <iconify-icon icon="simple-icons:bluesky" width="28" height="28"></iconify-icon>
+      </a>
+      <a href="https://scholar.google.com/citations?user=ygXYbPQAAAAJ&hl=en" target="_blank" title="Google Scholar">
+        <iconify-icon icon="academicons:google-scholar" width="28" height="28"></iconify-icon>
+      </a>
+    </div>
+
     <p>
       I am a PhD student at the University of Delaware working with 
       <a href="https://www.mendesiedleckilab.com/" target="_blank">Dr. Peter Mende-Siedlecki</a>.
