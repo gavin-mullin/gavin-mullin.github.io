@@ -12,53 +12,90 @@
   <style>
     body {
       margin: 0;
-      padding: 2rem;
+      padding: 0;
       background-color: #121212;
       color: #f4f4f4;
       font-family: 'Source Sans 3', sans-serif;
     }
 
-    h1, h2, h3 {
-      font-family: 'Neue Kabel', sans-serif;
-      color: #f4f4f4;
+    header {
+      background-color: #1a1a1a;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid #333;
     }
 
-    a {
+    header h1 {
+      font-family: 'Neue Kabel', sans-serif;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      margin: 0;
+      font-weight: 300;
+    }
+
+    nav {
+      background-color: #181818;
+      text-align: center;
+      padding: 1rem;
+      border-bottom: 1px solid #333;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      font-weight: 600;
       color: #ffdd44;
       text-decoration: none;
     }
 
-    a:hover {
+    nav a:hover {
       text-decoration: underline;
-    }
-
-    nav {
-      margin-bottom: 2rem;
-    }
-
-    nav a {
-      margin-right: 1.5rem;
-      font-weight: 600;
     }
 
     .content {
       max-width: 800px;
-      margin: 0 auto;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h2 {
+      font-family: 'Neue Kabel', sans-serif;
+      margin-top: 2rem;
+    }
+
+    a {
+      color: #ff9933;
+    }
+
+    a:hover {
+      color: #ffdd44;
+    }
+
+    .profile-img {
+      display: block;
+      margin: 2rem auto;
+      max-width: 200px;
+      border-radius: 50%;
+      border: 3px solid #ffdd44;
     }
   </style>
 </head>
 <body>
-  <div class="content">
+  <header>
     <h1>Gavin Mullin</h1>
-    <p>PhD Student | Social Psychologist | Researcher</p>
+    <p>Social Psychology PhD Student</p>
+  </header>
 
-    <nav>
-      <a href="index.html">About</a>
-      <a href="publications.html">Publications</a>
-      <a href="cv.html">CV</a>
-      <a href="art.html">Art</a>
-    </nav>
+  <nav>
+    <a href="index.html">About</a>
+    <a href="publications.html">Publications</a>
+    <a href="cv.html">CV</a>
+    <a href="art.html">Art</a>
+  </nav>
 
+  <div class="content">
     <h2>About Me</h2>
     <p>
       I am a PhD student at the University of Delaware working with 
